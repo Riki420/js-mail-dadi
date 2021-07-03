@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.my-border{
+    border: 1px solid black;
+}
+
+.my-s-height{
+    height: 40vh;
+}
