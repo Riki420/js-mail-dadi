@@ -3,11 +3,9 @@
 
 
 // Variabili dei numeri
-var uNum = 
-Math.round(Math.random() * 5) + 1;
+var uNum = Math.floor(Math.random() * 6) + 1;
 
-var cNum = 
-Math.round(Math.random() * 5) + 1;
+var cNum = Math.floor(Math.random() * 6) + 1;
 
 
 // Stampa in pagina
@@ -19,7 +17,7 @@ var cpuPoint =
 document.getElementById("visual-2").innerHTML =
 'Il punteggio del computer è: ' + cNum;
 
-
+//Verifica risultato partita
 if(cNum < uNum){
     document.getElementById("risultato").innerHTML = 'Hai vinto la partita';
     
