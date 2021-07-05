@@ -11,7 +11,7 @@ var allowedUsers = [
 ];
 
 // collect email from user
-var userEmail = prompt('Inserisci la tua mail', 'filbertomastrogianni@libero.com');
+var userEmail = prompt('Inserisci la tua mail', 'filbertomastrogianni@libero.it');
 
 // Check
 var isAllowed = false;
